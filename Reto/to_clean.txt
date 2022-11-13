@@ -1,0 +1,64 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1068 entries, 0 to 1067
+Data columns (total 57 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   CLAVE                 1068 non-null   object 
+ 1   SITIO                 1068 non-null   object 
+ 2   ORGANISMO_DE_CUENCA   1068 non-null   object 
+ 3   ESTADO                1068 non-null   object 
+ 4   MUNICIPIO             1068 non-null   object 
+ 5   ACUIFERO              1068 non-null   object 
+ 6   SUBTIPO               1068 non-null   object 
+ 7   LONGITUD              1068 non-null   float64
+ 8   LATITUD               1068 non-null   float64
+ 9   PERIODO               1068 non-null   int64  
+ 10  ALC_mg/L              1064 non-null   float64
+ 11  CALIDAD_ALC           1064 non-null   object 
+ 12  CONDUCT_mS/cm         1062 non-null   float64
+ 13  CALIDAD_CONDUC        1062 non-null   object 
+ 14  SDT_mg/L              0 non-null      float64
+ 15  SDT_M_mg/L            1066 non-null   object 
+ 16  CALIDAD_SDT_ra        1066 non-null   object 
+ 17  CALIDAD_SDT_salin     1066 non-null   object 
+ 18  FLUORUROS_mg/L        1068 non-null   object 
+ 19  CALIDAD_FLUO          1068 non-null   object 
+ 20  DUR_mg/L              1067 non-null   object 
+ 21  CALIDAD_DUR           1067 non-null   object 
+ 22  COLI_FEC_NMP/100_mL   1068 non-null   object 
+ 23  CALIDAD_COLI_FEC      1068 non-null   object 
+ 24  N_NO3_mg/L            1067 non-null   object 
+ 25  CALIDAD_N_NO3         1067 non-null   object 
+ 26  AS_TOT_mg/L           1068 non-null   object 
+ 27  CALIDAD_AS            1068 non-null   object 
+ 28  CD_TOT_mg/L           1068 non-null   object 
+ 29  CALIDAD_CD            1068 non-null   object 
+ 30  CR_TOT_mg/L           1068 non-null   object 
+ 31  CALIDAD_CR            1068 non-null   object 
+ 32  HG_TOT_mg/L           1068 non-null   object 
+ 33  CALIDAD_HG            1068 non-null   object 
+ 34  PB_TOT_mg/L           1068 non-null   object 
+ 35  CALIDAD_PB            1068 non-null   object 
+ 36  MN_TOT_mg/L           1068 non-null   object 
+ 37  CALIDAD_MN            1068 non-null   object 
+ 38  FE_TOT_mg/L           1068 non-null   object 
+ 39  CALIDAD_FE            1068 non-null   object 
+ 40  SEMAFORO              1068 non-null   object 
+ 41  CONTAMINANTES         634 non-null    object 
+ 42  CUMPLE_CON_ALC        1068 non-null   object 
+ 43  CUMPLE_CON_COND       1068 non-null   object 
+ 44  CUMPLE_CON_SDT_ra     1068 non-null   object 
+ 45  CUMPLE_CON_SDT_salin  1068 non-null   object 
+ 46  CUMPLE_CON_FLUO       1068 non-null   object 
+ 47  CUMPLE_CON_DUR        1068 non-null   object 
+ 48  CUMPLE_CON_CF         1068 non-null   object 
+ 49  CUMPLE_CON_NO3        1068 non-null   object 
+ 50  CUMPLE_CON_AS         1068 non-null   object 
+ 51  CUMPLE_CON_CD         1068 non-null   object 
+ 52  CUMPLE_CON_CR         1068 non-null   object 
+ 53  CUMPLE_CON_HG         1068 non-null   object 
+ 54  CUMPLE_CON_PB         1068 non-null   object 
+ 55  CUMPLE_CON_MN         1068 non-null   object 
+ 56  CUMPLE_CON_FE         1068 non-null   object 
+dtypes: float64(5), int64(1), object(51)
+memory usage: 475.7+ KB
